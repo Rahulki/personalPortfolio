@@ -531,7 +531,121 @@ a:hover{
     text-decoration: none;
 }
 
-@media screen and (max-width:767px){
+@media screen and (max-width:479px){
+    .distinction-award-conestoga{
+        width: 100%;
+    }
+    .paragraph-wrapper{
+        padding: 32px;
+    }
+    .paragraph-wrapper-2{
+        padding: 32px;
+        padding-top: 102px;
+        width: 100%;
+    }
+    nav{
+        padding-top: 16px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .homeLink{
+        margin-left: 0;
+    }
+    .menuLink{
+        margin-right: 0;
+    }
+    .menu{
+        top:13%;
+        left:47%;
+        width:180px;
+        padding: 5px;
+    }
+    .gdg-photo{
+        margin-left:32px;
+        height: 180px;
+        margin-top: 128px;
+    }
+    .my-casual-photo{
+        height: 240px;
+        width: 500px;
+    }
+    .bell-cover-photo{
+        height: 150px;
+        margin-right: 32px;
+        margin-top: 130px;
+    }
+    .colored-h1-small {
+        font-size: 27px;
+        margin-bottom: 15px;
+    }
+
+    .paragraph {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .project-card{
+        width:320px;
+        height:500px;
+        min-width: 0;
+        max-width: none;
+        border-radius: 24px;
+        margin-bottom: 30px;
+        padding-top: 32px;
+        padding-right: 32px;
+        padding-left: 32px;
+    }
+    .project-card h2, h2{
+        font-size: 24px;
+    }
+    .black-gradient-h1{
+        font-size: 45px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .head-line{
+        width:80%;
+    }
+    .w-inline-block{
+        flex-direction: column;
+    }
+    .v-stack{
+        padding-top: 20px;
+    }
+    .primary-button{
+        padding: 10px 15px;
+    }
+    .project-preview-image{
+        height: 270px;
+        right: -40px;
+    }
+    .button-text{
+        font-size: 16px;
+    }
+    .case-paragraph{
+        font-size: 16px;
+    }
+    .awards-list{
+        display: block;
+        width: 100%;
+    }
+    .awards-list li{
+        margin-bottom: 15px;
+    }
+    .transcript-conestoga{
+        width: 100%;
+    }
+    .degree-certificate-be{
+        width: 100%;
+    }
+    .transcript-be{
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (min-width:480px) and (max-width:767px){
     .distinction-award-conestoga{
         width: 100%;
     }
