@@ -1,0 +1,769 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #323235;
+  background-color: #f6f6f6;
+  background-image: none;
+  flex-direction: column;
+  align-items: stretch;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 140%;
+  text-decoration: none;
+  display: flex;
+}
+
+nav {
+  position: fixed;
+  padding-top: 50px;
+  padding-left: 200px;
+  width: 100%;
+  z-index: 1000; 
+  display: flex;
+  justify-content: space-between;
+}
+.paragraph-wrapper{
+  padding: 50px 450px 0 450px;
+}
+.paragraph-wrapper-2{
+  padding: 100px 450px 0 450px;
+}
+.paragraph {
+  color: #323235;
+  margin-bottom: 24px;
+  font-size: 18px;
+  line-height: 170%;
+}
+.colored-h1-small {
+  text-align: left;
+  letter-spacing: -1.25px;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(141deg, #adf1e0, #8075ff 28%, #ff7171 98%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 36px;
+  display: inline-block;
+  position: relative;
+  margin-bottom:24px
+}
+.social-links-wrapper {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 21px;
+  display: flex;
+}
+.caption {
+  max-width: 600px;
+  color: #707072;
+  text-align: center;
+  margin: 12px auto;
+  padding: 12px 8px;
+  font-size: 14px;
+  line-height: 20px;
+}
+.homeLink {
+  width: 50px;
+  height: 50px;
+  padding: 30px;
+  font-size: larger;
+  background-color: #fff;
+}
+
+.menuLink {
+  width: 50px;
+  height: 50px;
+  padding: 30px;
+  font-size: larger;
+  background-color: #fff;
+  margin-right: 200px;
+  cursor: pointer;
+}
+
+.menu {
+  top: 15%;
+  left: 69%;
+  width: 250px;
+  display: none;
+  position: fixed;
+  text-align: start;
+  padding: 20px;
+  z-index: 999;
+  border-radius: 24px;
+  background-color: white;
+  box-shadow: 0 0 0 0 #e6ebef, 0 4px 24px 0 rgba(0, 0, 0, .08);
+}
+.menu-icon{
+  margin-right: 20px;
+  width:20px;
+}
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu ul li {
+  padding: 20px 0;
+}
+
+.menu ul li:hover{
+  background-color: #f1f1f1;
+  border-radius: 12px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.change .fa-bars {
+  display: none;
+}
+
+.change .fa-times {
+  display: block;
+}
+
+.fa-times {
+  display: none;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.right ul li {
+  margin: 10px;
+}
+
+.right ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.right ul li a:hover {
+  text-decoration: none;
+  color: lavender;
+  font-size: 1.04rem;
+}
+.footer-icon:hover{
+  background-color: #bdbdc5;
+  border-radius: 6px;
+}
+
+/* reusable classes */
+.textPurple {
+  color: #8362e0;
+}
+.textGray{
+  color:gray
+}
+.headingSpan{
+  margin-left: 10px;
+}
+.heading{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.shadow-white{
+  box-shadow: 0px 0px 2px rgba(255, 255, 255);
+}
+.black-gradient-h1 {
+  text-align: center;
+  letter-spacing: -1.25px;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(141deg, #969699, #1e1e22);
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 70px;
+  display: inline-block;
+  position: relative;
+}
+h1{
+  font-weight: 700;
+}
+/* css for about section */
+.MyImage{
+  background-image: url("../Images/rahul.png");
+  width: 200px;
+  height: 200px;
+  background-position:top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.first{
+  display: flex;
+  gap: 100px;
+}
+
+.first .text{
+  font-size: large;
+  text-align: justify;
+}
+
+/* css for education section */
+.transcript-conestoga{
+  margin-top:8px;
+  width: 300px;
+  height: 250px;
+  background-position:top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+  box-shadow: 0 0 0 0 #5e5e63, 0 4px 24px 0 rgba(0, 0, 0, .08);
+  background-image: url("../Images/transcriptWD.png");
+  border-radius: 10px;
+}
+.distinction-award-conestoga{
+  margin-top:8px;
+  width: 300px;
+  height: 250px;
+  background-position:top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+  box-shadow: 0 0 0 0 #5e5e63, 0 4px 24px 0 rgba(0, 0, 0, .08);
+  background-image: url("../Images/distinctionAwardWD.png");
+  border-radius: 10px;
+}
+.transcript-be{
+  margin-top:8px;
+  width: 300px;
+  height: 250px;
+  background-position:top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+  background-image: url("../Images/transcriptBE.png");
+  box-shadow: 0 0 0 0 #5e5e63, 0 4px 24px 0 rgba(0, 0, 0, .08);
+  border-radius: 10px;
+}
+.degree-certificate-be{
+  margin-top:8px;
+  width: 300px;
+  height: 250px;
+  background-position:top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+  background-image: url("../Images/degreeCertificateBE.png");
+  box-shadow: 0 0 0 0 #5e5e63, 0 4px 24px 0 rgba(0, 0, 0, .08);
+  border-radius: 10px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0); 
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s, background-color 0.3s;
+}
+
+.transcriptConestoga:hover .overlay, .distinctionAwardConestoga:hover .overlay, 
+.transcriptBE:hover .overlay, .degreeCertificateBE:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.5); 
+  opacity: 1; 
+  border-radius: .25rem!important;
+}
+
+.overlay p {
+  margin: 0;
+  font-size: 20px;
+}
+
+/* css for contact section */
+.icon{
+  width: 50px;
+  height: 50px;
+}
+
+
+
+/* css for projects section */
+.bartersHub{
+  background-image: url('../Images/bartershub.jpeg');
+  width: 100%;
+  height: 400px;
+  background-position:top;
+  background-repeat: no-repeat;
+  background-size:cover;
+  border-radius: inherit;
+}
+.creaturesComfort{
+  background-image: url('../Images/tablet_view.png');
+  width: 100%;
+  height: 400px;
+  background-position:top;
+  background-repeat: no-repeat;
+  background-size:cover;
+  border-radius: inherit;
+}
+.teamTrack{
+  background-image: url('../Images/Team\ track.jpeg');
+  width: 100%;
+  height: 300px;
+  background-position:top;
+  background-repeat: no-repeat;
+  background-size:cover;
+  border-radius: inherit;
+}
+.project-card {
+  width: 60%;
+  height: 440px;
+  max-width: 1000px;
+  min-width: 900px;
+  background-color: #eceff1;
+  box-shadow: none;
+  cursor: pointer;
+  border-radius: 24px;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 96px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 64px;
+  transition: all .2s ease-out;
+  display: flex;
+  overflow: hidden;
+}
+.rounded{
+  border-radius: 24px!important;
+}
+.project-card:hover {
+  box-shadow: 0 0 0 0 #e6ebef, 0 4px 24px 0 rgba(0, 0, 0, .08);
+  background-color: #f6f6f6;
+  transform: scale(1.02);
+}
+.v-stack {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+.v-stack.max-width {
+  max-width: 345px;
+}
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.project-preview-image {
+  z-index: 0;
+  height: 400px;
+  max-width: 500px;
+  object-fit: cover;
+  object-position: 0 100%;
+  border-radius: 16px;
+  align-self: stretch;
+  position: relative;
+  bottom: -40px;
+  right: -12px;
+}
+.project-card h2 {
+  background-image: linear-gradient(333deg, #323235 73%, #5e5e63);
+  letter-spacing: -.01em;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin-top: 0;
+  margin-bottom: 4px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 140%;
+}
+a {
+  color: #5e5e63;
+}
+.w-inline-block {
+  max-width: 100%;
+  display: flex;
+}
+img {
+  flex: 0 auto;
+  max-width: 100%;
+  vertical-align: middle;
+  overflow: clip;
+  overflow-clip-margin: content-box;
+}
+html.w-mod-touch * {
+  background-attachment: scroll !important;
+}
+.h-stack {
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+.small-caps-subtitle {
+  color:#5e5e63;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 160%;
+}
+p {
+  color: #5e5e63;
+  margin-bottom: 24px;
+  font-size: 18px;
+  line-height: 170%;
+      margin-top: 0;
+      margin-bottom: 10px;
+          display: block;
+          margin-block-start: 1em;
+          margin-block-end: 1em;
+          margin-inline-start: 0px;
+          margin-inline-end: 0px;
+          unicode-bidi: isolate;
+}
+.h-space-8px {
+  width: 8px;
+  height: 100%;
+}
+.small-caps-subtitle.light {
+  color: #bdbdc5;
+}
+.primary-button {
+  color: #323235;
+  background-color: #fff;
+  border: 2px solid #fff;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 24px;
+  transition: color .2s;
+  display: flex;
+}
+.primary-button:hover{
+  color:#1b1bde;
+  box-shadow: none;
+  border-radius: 12px;
+}
+.button-text {
+  background-image: linear-gradient(107deg, #74747a, #323235);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.button-icon {
+  margin-left: 9px;
+  position: relative;
+}
+.photos-wrapper{
+  display: flex;
+  width: 100%;
+}
+.gdg-photo{
+  background-image: url('../Images/gdgPhoto.jpg');
+  width: 250px;
+  max-width: 100%;
+  height: 300px;
+  margin-left: 235px;
+  margin-top:140px;
+  background-position:top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .16);    
+  border-radius: 12px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.my-casual-photo{
+  background-image: url('../Images/rahul.jpeg');
+  width: 300px;
+  max-width: 100%;
+  height: 400px;
+  margin-top:80px;
+  background-position:top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .16);    
+  border-radius: 12px;
+}
+.bell-cover-photo{
+  background-image: url('../Images/bell.jpeg');
+  width: 450px;
+  max-width: 100%;
+  height: 250px;
+  margin-top:170px;
+  background-position:top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .16);    
+  border-radius: 12px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.head-line{
+  width: 50%;
+}
+.awards-list{
+  display: flex;
+  gap: 2rem;
+}
+footer {
+  width: 100%;
+  background-color: #f1f1f1;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: auto;
+  padding: 48px 24px 32px;
+  display: flex;
+}
+.copyrightLine{
+  font-size: 14px;
+}
+a:hover{
+  text-decoration: none;
+}
+
+@media screen and (max-width:479px){
+  .distinction-award-conestoga{
+      width: 100%;
+  }
+  .paragraph-wrapper{
+      padding: 32px;
+  }
+  .paragraph-wrapper-2{
+      padding: 32px;
+      padding-top: 102px;
+      width: 100%;
+  }
+  nav{
+      padding-top: 16px;
+      padding-left: 16px;
+      padding-right: 16px;
+  }
+  .homeLink{
+      margin-left: 0;
+  }
+  .menuLink{
+      margin-right: 0;
+  }
+  .menu{
+      top:13%;
+      left:47%;
+      width:180px;
+      padding: 5px;
+  }
+  .gdg-photo{
+      margin-left:32px;
+      height: 180px;
+      margin-top: 128px;
+  }
+  .my-casual-photo{
+      height: 240px;
+      width: 500px;
+  }
+  .bell-cover-photo{
+      height: 150px;
+      margin-right: 32px;
+      margin-top: 130px;
+  }
+  .colored-h1-small {
+      font-size: 27px;
+      margin-bottom: 15px;
+  }
+
+  .paragraph {
+      font-size: 15px;
+      margin-bottom: 15px;
+  }
+  .project-card{
+      width:320px;
+      height:500px;
+      min-width: 0;
+      max-width: none;
+      border-radius: 24px;
+      margin-bottom: 30px;
+      padding-top: 32px;
+      padding-right: 32px;
+      padding-left: 32px;
+  }
+  .project-card h2, h2{
+      font-size: 24px;
+  }
+  .black-gradient-h1{
+      font-size: 45px;
+  }
+  p{
+      font-size: 16px;
+  }
+  .head-line{
+      width:80%;
+  }
+  .w-inline-block{
+      flex-direction: column;
+  }
+  .v-stack{
+      padding-top: 20px;
+  }
+  .primary-button{
+      padding: 10px 15px;
+  }
+  .project-preview-image{
+      height: 270px;
+      right: -40px;
+  }
+  .button-text{
+      font-size: 16px;
+  }
+  .case-paragraph{
+      font-size: 16px;
+  }
+  .awards-list{
+      display: block;
+      width: 100%;
+  }
+  .awards-list li{
+      margin-bottom: 15px;
+  }
+  .transcript-conestoga{
+      width: 100%;
+  }
+  .degree-certificate-be{
+      width: 100%;
+  }
+  .transcript-be{
+      width: 100%;
+  }
+
+}
+
+
+@media screen and (min-width:480px) and (max-width:767px){
+  .distinction-award-conestoga{
+      width: 100%;
+  }
+  .paragraph-wrapper{
+      padding: 32px;
+  }
+  .paragraph-wrapper-2{
+      padding: 32px;
+      padding-top: 102px;
+      width: 100%;
+  }
+  nav{
+      padding-top: 16px;
+      padding-left: 16px;
+      padding-right: 16px;
+  }
+  .homeLink{
+      margin-left: 0;
+  }
+  .menuLink{
+      margin-right: 0;
+  }
+  .menu{
+      top:10%;
+      left:50%;
+      width:180px;
+      padding: 5px;
+  }
+  .gdg-photo{
+      margin-left:32px;
+      height: 180px;
+      margin-top: 128px;
+  }
+  .my-casual-photo{
+      height: 240px;
+      width: 500px;
+  }
+  .bell-cover-photo{
+      height: 150px;
+      margin-right: 32px;
+      margin-top: 130px;
+  }
+  .colored-h1-small {
+      font-size: 27px;
+      margin-bottom: 15px;
+  }
+
+  .paragraph {
+      font-size: 15px;
+      margin-bottom: 15px;
+  }
+  .project-card{
+      width:320px;
+      height:500px;
+      min-width: 0;
+      max-width: none;
+      border-radius: 24px;
+      margin-bottom: 30px;
+      padding-top: 32px;
+      padding-right: 32px;
+      padding-left: 32px;
+  }
+  .project-card h2, h2{
+      font-size: 24px;
+  }
+  .black-gradient-h1{
+      font-size: 45px;
+  }
+  p{
+      font-size: 16px;
+  }
+  .head-line{
+      width:80%;
+  }
+  .w-inline-block{
+      flex-direction: column;
+  }
+  .v-stack{
+      padding-top: 20px;
+  }
+  .primary-button{
+      padding: 10px 15px;
+  }
+  .project-preview-image{
+      height: 270px;
+      right: -40px;
+  }
+  .button-text{
+      font-size: 16px;
+  }
+  .case-paragraph{
+      font-size: 16px;
+  }
+  .awards-list{
+      display: block;
+      width: 100%;
+  }
+  .awards-list li{
+      margin-bottom: 15px;
+  }
+  .transcript-conestoga{
+      width: 100%;
+  }
+  .degree-certificate-be{
+      width: 100%;
+  }
+  .transcript-be{
+      width: 100%;
+  }
+}
+
+
+@media screen and (min-width:1500px) {
+  .menu{
+      top:13%;
+      left:76%;
+  }
+  .gdg-photo{
+      margin-left: 450px;
+  }
+}
