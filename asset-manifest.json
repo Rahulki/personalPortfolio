@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Rahulki/personalPortfolio/my-personal-portfolio/static/css/main.44c382f7.css",
-    "main.js": "/Rahulki/personalPortfolio/my-personal-portfolio/static/js/main.40c6921b.js",
-    "static/js/488.d0965ad4.chunk.js": "/Rahulki/personalPortfolio/my-personal-portfolio/static/js/488.d0965ad4.chunk.js",
-    "static/media/transcriptBE.png": "/Rahulki/personalPortfolio/my-personal-portfolio/static/media/transcriptBE.b95b2c1c8eaf77184a9e.png",
-    "static/media/tablet_view.png": "/Rahulki/personalPortfolio/my-personal-portfolio/static/media/tablet_view.4fffa6c71dbf1c59a9f6.png",
-    "static/media/degreeCertificateBE.png": "/Rahulki/personalPortfolio/my-personal-portfolio/static/media/degreeCertificateBE.f96dd9d46af0a01cd0a8.png",
-    "static/media/rahul.png": "/Rahulki/personalPortfolio/my-personal-portfolio/static/media/rahul.6a467ff4b019e21adbc2.png",
-    "static/media/transcriptWD.png": "/Rahulki/personalPortfolio/my-personal-portfolio/static/media/transcriptWD.e61d300295904fd483c0.png",
-    "static/media/bell.jpeg": "/Rahulki/personalPortfolio/my-personal-portfolio/static/media/bell.04b9007e02afac904f73.jpeg",
-    "static/media/gdgPhoto.jpg": "/Rahulki/personalPortfolio/my-personal-portfolio/static/media/gdgPhoto.f7c3733eb237a45fa1ae.jpg",
-    "static/media/bartershub.jpeg": "/Rahulki/personalPortfolio/my-personal-portfolio/static/media/bartershub.698d4482288613e06d30.jpeg",
-    "static/media/rahul.jpeg": "/Rahulki/personalPortfolio/my-personal-portfolio/static/media/rahul.176c10eedc9b490c2339.jpeg",
-    "static/media/distinctionAwardWD.png": "/Rahulki/personalPortfolio/my-personal-portfolio/static/media/distinctionAwardWD.f29371c7acb78790907f.png",
-    "static/media/Team track.jpeg": "/Rahulki/personalPortfolio/my-personal-portfolio/static/media/Team track.0e328d262d737505e901.jpeg",
-    "index.html": "/Rahulki/personalPortfolio/my-personal-portfolio/index.html",
-    "main.44c382f7.css.map": "/Rahulki/personalPortfolio/my-personal-portfolio/static/css/main.44c382f7.css.map",
-    "main.40c6921b.js.map": "/Rahulki/personalPortfolio/my-personal-portfolio/static/js/main.40c6921b.js.map",
-    "488.d0965ad4.chunk.js.map": "/Rahulki/personalPortfolio/my-personal-portfolio/static/js/488.d0965ad4.chunk.js.map"
+    "main.css": "/static/css/main.b6964336.css",
+    "main.js": "/static/js/main.38575a34.js",
+    "static/js/488.d0965ad4.chunk.js": "/static/js/488.d0965ad4.chunk.js",
+    "static/media/transcriptBE.png": "/static/media/transcriptBE.b95b2c1c8eaf77184a9e.png",
+    "static/media/tablet_view.png": "/static/media/tablet_view.4fffa6c71dbf1c59a9f6.png",
+    "static/media/degreeCertificateBE.png": "/static/media/degreeCertificateBE.f96dd9d46af0a01cd0a8.png",
+    "static/media/rahul.png": "/static/media/rahul.6a467ff4b019e21adbc2.png",
+    "static/media/transcriptWD.png": "/static/media/transcriptWD.e61d300295904fd483c0.png",
+    "static/media/bell.jpeg": "/static/media/bell.04b9007e02afac904f73.jpeg",
+    "static/media/gdgPhoto.jpg": "/static/media/gdgPhoto.f7c3733eb237a45fa1ae.jpg",
+    "static/media/bartershub.jpeg": "/static/media/bartershub.698d4482288613e06d30.jpeg",
+    "static/media/rahul.jpeg": "/static/media/rahul.176c10eedc9b490c2339.jpeg",
+    "static/media/distinctionAwardWD.png": "/static/media/distinctionAwardWD.f29371c7acb78790907f.png",
+    "static/media/Team track.jpeg": "/static/media/Team track.0e328d262d737505e901.jpeg",
+    "index.html": "/index.html",
+    "main.b6964336.css.map": "/static/css/main.b6964336.css.map",
+    "main.38575a34.js.map": "/static/js/main.38575a34.js.map",
+    "488.d0965ad4.chunk.js.map": "/static/js/488.d0965ad4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.44c382f7.css",
-    "static/js/main.40c6921b.js"
+    "static/css/main.b6964336.css",
+    "static/js/main.38575a34.js"
   ]
 }
