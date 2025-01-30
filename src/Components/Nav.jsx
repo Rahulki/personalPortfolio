@@ -52,7 +52,7 @@ const Nav = () =>{
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fa fa-download menu-icon"></i>
+              <i className="fa fa-external-link menu-icon"></i>
               <div>Resume</div>
             </a>
           </li>
